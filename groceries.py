@@ -82,8 +82,9 @@ print("--------------")
 print("THERE ARE " + str(department_count) + " DEPARTMENTS:")
 print("--------------")
 
+unique_departments.sort()
 for d in unique_departments:
-    print(d)
+    print(d.title())
 
 
 
@@ -110,5 +111,3 @@ for d in unique_departments:
 #  + Saline Nasal Mist ($16.00)
 #  + Smart Ones Classic Favorites Mini Rigatoni With Vodka Cream Sauce ($6.99)
 #  + Sparkling Orange Juice & Prickly Pear Beverage ($2.99)
-
- 
